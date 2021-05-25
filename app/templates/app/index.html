@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Custom Studio</title>
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="menu-topo">
+		<a href="/equipamento_list.html">EQUIPAMENTOS</a>
+		<a href="/estudio_list.html">ESTÚDIOS</a>
+		<a href="#">PEDIDO</a>
+	</div>
+	<div class="imagem">
+		{% load static %}
+		<img id="logo"src="{% static 'img/logo_custom_studio.png' %}" alt="Logo" >
+		<img id="mesa_som" src="{% static 'img/mesa_som.jpg' %}" alt="Mesa de som">
+		<button id="botão_iniciar"><a href=""></a>Comece Por Aqui!</button>
+	</div>
+
+	<div class="informação">
+		<p> Nosso objetivo é promover locação de equipamento musical e estúdio para gravação de uma forma rápida e eficiente</p>
+	</div>
+	
+	<div class="formulario"></div>
+
+	<div class="footer">
+		<hr>
+		<p>Copyright Jguerreiro 2021</p>
+	</div>
+</body>
+</html>

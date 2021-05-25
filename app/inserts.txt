@@ -1,0 +1,2 @@
+a = Equipamento(tipo = "Violão", marca = "Takamine", valorLocacaoEquipamento = 250.00, fotoEquipamento = takamine, horaDeUso = 24)
+e = Estudio(tamanho = "Médio", valorLocacaoEstudio = 200.00, fotoEstudio = estudio , horaDeUso = 12)
